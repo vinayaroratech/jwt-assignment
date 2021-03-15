@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtDemoApp", "JwtDemoApp\JwtDemoApp.csproj", "{3D3DF404-6042-4973-8FDD-18064830CB87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtDemoApp", "src\JwtDemoApp\JwtDemoApp.csproj", "{3D3DF404-6042-4973-8FDD-18064830CB87}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtDemoApp.Infrastructure", "JwtDemoApp.Infrastructure\JwtDemoApp.Infrastructure.csproj", "{D875C2DE-03E9-4919-999F-68F38906FB61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtDemoApp.Infrastructure", "src\JwtDemoApp.Infrastructure\JwtDemoApp.Infrastructure.csproj", "{D875C2DE-03E9-4919-999F-68F38906FB61}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtDemoApp.Application", "JwtDemoApp.Application\JwtDemoApp.Application.csproj", "{D909612F-4313-4FDB-8446-CA866C0A0F02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtDemoApp.Application", "src\JwtDemoApp.Application\JwtDemoApp.Application.csproj", "{D909612F-4313-4FDB-8446-CA866C0A0F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwTDemo.Infra.CrossCutting.IoC", "JwTDemo.Infra.CrossCutting.IoC\JwTDemo.Infra.CrossCutting.IoC.csproj", "{05EDE9EB-A575-4B3A-8717-62578FE298CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwTDemo.Infra.CrossCutting.IoC", "src\JwTDemo.Infra.CrossCutting.IoC\JwTDemo.Infra.CrossCutting.IoC.csproj", "{05EDE9EB-A575-4B3A-8717-62578FE298CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E252E963-656E-48E4-AE75-D1051AA7D653}"
 EndProject

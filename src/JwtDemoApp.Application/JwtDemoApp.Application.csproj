@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\JwtDemoApp.Domain\JwtDemoApp.Domain.csproj" />
+    <ProjectReference Include="..\JwtDemoApp.Domain\JwtDemoApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

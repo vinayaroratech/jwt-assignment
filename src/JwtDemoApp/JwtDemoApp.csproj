@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\JwTDemo.Infra.CrossCutting.IoC\JwTDemo.Infra.CrossCutting.IoC.csproj" />
-    <ProjectReference Include="..\JwtDemoApp.Application\JwtDemoApp.Application.csproj" />
   </ItemGroup>
 
 </Project>

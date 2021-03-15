@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\JwtDemoApp\JwtDemoApp.csproj" />
+    <ProjectReference Include="..\..\src\JwtDemoApp\JwtDemoApp.csproj" />
   </ItemGroup>
 
 </Project>
