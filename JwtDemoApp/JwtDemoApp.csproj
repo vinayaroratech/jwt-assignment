@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.4" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JwtDemoApp.Application\JwtDemoApp.Application.csproj" />
+    <ProjectReference Include="..\JwtDemoApp.Infrastructure\JwtDemoApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
