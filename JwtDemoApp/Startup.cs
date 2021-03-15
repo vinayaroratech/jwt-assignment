@@ -95,7 +95,6 @@ namespace JwtDemoApp
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "JWT Auth Demo v1");
                     c.DocumentTitle = "JWT Auth Demo";
-                    c.RoutePrefix = string.Empty;
                 });
             }
 
