@@ -9,8 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Text;
-using JwtDemoApp.Infrastructure;
-
+using JwTDemo.Infra.CrossCutting.IoC;
 namespace JwtDemoApp
 {
     public class Startup
@@ -50,7 +49,7 @@ namespace JwtDemoApp
                 };
             });
 
-            services.AddApplication();
+            services.RegisterServices();
 
             services.AddSwaggerGen(c =>
             {
